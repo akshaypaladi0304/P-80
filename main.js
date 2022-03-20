@@ -2,8 +2,9 @@ var names_of_people = [];
     
 function submit()
 {
-    var GuestName = document.getElementById("name1" .push).value; 
+    var GuestName = document.getElementById("name1").value; 
 	// use the push function as - names_of_people.push(GuestName);
+	names_of_people.push(GuestName);
 	console.log(GuestName);    
     console.log(names_of_people);
     var lenght_of_name = names_of_people.length;
